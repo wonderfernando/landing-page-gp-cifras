@@ -8,10 +8,17 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 52px;
 }
+
 img {
   max-width: 100%;
 }
 
 p {
   color: #333;
+}
+@media (max-width: 512px) {
+  body,
+  html {
+    font-size: 87.5%;
+  }
 }
